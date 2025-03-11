@@ -1,4 +1,4 @@
-# Diffle-Hellman demostration in Python
+# Diffie-Hellman demostration in Python
 It all began when I decided to dive into the world of cybersecurity. One of the key topics I explored was asymmetric cryptography, which involves the use of private and public key pairs. Initially, I had a misconception about how RSA works, particularly in the context of SSH connections. I assumed that RSA key pairs were directly responsible for encrypting the traffic during an SSH session. However, I soon learned that asymmetric encryption methods like RSA are computationally expensive and thus unsuitable for encrypting large amounts of data.
 
 This realization led me to explore Diffie-Hellman (DH), a protocol specifically designed for securely exchanging keys over an insecure channel. At first, I wasn’t entirely clear on how DH worked, so I turned to Qwen for assistance. Together, we created a simple Python script to demonstrate the Diffie-Hellman key exchange process step by step. Through this exercise, I gained a deeper understanding of how both RSA and DH are utilized during the initiation of SSH connections:
