@@ -13,7 +13,9 @@ alice.py - This works as the  "Server" application.
 bob.py - This works as the "Client" application.    
 
 
-
 All you need to do, is to run both scripts on different machines and remember to update bob.py with the IP of the machine where alice.py is running. After that, you will see the exchange of p, n and the public keys (generated previously in both alice.py and bob.py respectively) and the calculation of the shared session key that would later be used to encrypt traffic in real world.  
+
+Screenshot:
+![Screenshot](.dhke-example.png)
 
 Enjoy!
